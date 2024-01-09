@@ -1,6 +1,6 @@
 # Video Translation Tool
 
-This tool is designed to translate videos in various languages into English, utilizing ffmpeg, OpenAI's Text-to-Speech (TTS), and Whisper APIs.
+This tool is designed to translate single narrator videos such as youtube tutorials from various languages into English, utilizing ffmpeg, OpenAI's Text-to-Speech (TTS), and Whisper APIs.
 
 ## Overview
 The tool works by extracting audio from a video file, splitting it into manageable chunks, and then using the Whisper API for translation and OpenAI's TTS to convert the translated text back into audio. Finally, it stitches the translated audio segments together and combines them with the original video, producing a video with the audio translated into English.
